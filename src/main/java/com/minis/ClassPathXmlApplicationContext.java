@@ -14,7 +14,7 @@ import java.util.Map;
 public class ClassPathXmlApplicationContext {
     private List<BeanDefinition> beanDefinitions = new ArrayList<>();
     private Map<String, Object> singletons = new HashMap<>();
-    
+
     /**
      * 构造器获取外部配置，解析出Bean的定义，形成内存映像
      * @param fileName 文件名
